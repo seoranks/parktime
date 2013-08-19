@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.47 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>ParkTime.com</Company_Name>
+		<Address_1>Long De Zi Jin, 4 - 410, Tian Tong Yuan</Address_1>
+		<Address_2 />
+		<City_Town>Beijing</City_Town>
+		<State_Province>Beijing</State_Province>
+		<Zip_Postal_Code>100010</Zip_Postal_Code>
+		<Country>China</Country>
+		<Company_WebSite_URL>http://www.parktime.com/</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Andy</Author_First_Name>
+			<Author_Last_Name>Chow</Author_Last_Name>
+			<Author_Email>cogoing@gmail.com</Author_Email>
+			<Contact_First_Name>Andy</Contact_First_Name>
+			<Contact_Last_Name>Chow</Contact_Last_Name>
+			<Contact_Email>cogoing@gmail.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>cogoing@gmail.com</Sales_Email>
+			<Support_Email>cogoing@gmail.com</Support_Email>
+			<General_Email>cogoing@gmail.com</General_Email>
+			<Sales_Phone>18908027527</Sales_Phone>
+			<Support_Phone>18908027527</Support_Phone>
+			<General_Phone>18908027527</General_Phone>
+			<Fax_Phone>18908027527</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Park Time</Program_Name>
+		<Program_Version>0.1</Program_Version>
+		<Program_Release_Month>07</Program_Release_Month>
+		<Program_Release_Day>04</Program_Release_Day>
+		<Program_Release_Year>2013</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win2000,Win7 x32,Win7 x64,WinServer,WinVista,WinVista x64,WinXP</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>ParkTime.com. Free Time Clock - Free Time Card - Free Timesheet  -  employee attandence, employee time clock, employee time tracking, employee time card, employee timesheet, employee payroll calculator, Track employee time and attendance, employee time clock software, employee scheduling time</Program_Change_Info>
+		<Program_Specific_Category>Business</Program_Specific_Category>
+		<Program_Category_Class>Business::Accounting &amp; Finance</Program_Category_Class>
+		<Program_System_Requirements>None</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>23559579</File_Size_Bytes>
+			<File_Size_K>23007</File_Size_K>
+			<File_Size_MB>22.47</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Free Time Clock, Free Time Card, Free</Keywords>
+			<Char_Desc_45>Free Time Clock - Free Time Card - Free Times</Char_Desc_45>
+			<Char_Desc_80>ParkTime.com. Free Time Clock - Free Time Card - Free Timesheet</Char_Desc_80>
+			<Char_Desc_250>ParkTime.com. Free Time Clock - Free Time Card - Free Timesheet  -  employee attandence, employee time clock, employee time tracking, employee time card, employee timesheet, employee payroll calculator, Track employee time and attendance, employ</Char_Desc_250>
+			<Char_Desc_450>ParkTime.com. Free Time Clock - Free Time Card - Free Timesheet  -  employee attandence, employee time clock, employee time tracking, employee time card, employee timesheet, employee payroll calculator, Track employee time and attendance, employee time clock software, employee scheduling software and payroll software all in a single package, Time and Expense, Employee Time Clocks, payroll timeclocks, Time Clock Specialists, employee time att</Char_Desc_450>
+			<Char_Desc_2000>Features in Time Clock Free
+ 
+Time Clock Free is a fully featured web based time clock
+
+We have all the features of a standard time clock, plus many more.
+
+Most Important
+
+100% Web Based - No installs, Free upgrades, works with Windows &amp; Apple
+Employees can clock in/out from any computer or smart phone - You can limit where they clock in and clock out with password protection
+We have the best features at the lowest cost
+
+General Time Clock Features
+
+Automatic Payroll Calculation
+Employees can clock in/out from assigned computers
+Multilingual support - custom prompts 
+No training involved &amp; highly customizable
+Manager &amp; employee user levels
+Unlimited employees
+Low Cost - Plans starting at $0 / month
+No messy software installations
+Export data to excel or PDF 
+Free lifetime upgrades - automatic
+No hardware required  - No initial investment
+100% internet based Security
+Works with all computers - PC, Mac, Linux
+Any time pay periods
+No contract - cancel anytime
+Free support &amp; upgrades- you will never pay for support or upgrades
+ 
+
+Security:
+
+128 Bit SSL encryption
+Sensitive information encrypted at database level
+Data is automatically backed up nightly
+ 
+
+Reliability
+
+Built on Adobe Flex and PHP development platform
+MySQL database
+Hosted In a world class data center
+ 
+
+Reporting / Exporting
+
+Export to MS Excel file
+Export to PDF file
+ 
+
+Free for small business:
+
+If you do not need Reports/Camera you will never need to pay anything.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.parktime.com/</Application_Info_URL>
+			<Application_Order_URL>http://www.parktime.com/site/contact-us.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.parktime.com/site/screenshot.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.parktime.com/site/submit.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.parktime.com/site/pad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.parktime.com/site/parktimewin.zip</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.parktime.com/site/parktimewin.zip</Secondary_Download_URL>
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>ParkTime.com. Free Time Clock - Free Time Card - Free Timesheet  -  employee attandence, employee time clock, employee time tracking, employee time card, employee timesheet, employee payroll calculator, Track employee time and attendance, employee time clock software, employee scheduling software and payroll software all in a single package, Time and Expense, Employee Time Clocks, payroll timeclocks, Time Clock Specialists, employee time attendance management ,payroll automation, Time and Attendance Systems</Distribution_Permissions>
+		<EULA>ParkTime.com. Free Time Clock - Free Time Card - Free Timesheet  -  employee attandence, employee time clock, employee time tracking, employee time card, employee timesheet, employee payroll calculator, Track employee time and attendance, employee time clock software, employee scheduling software and payroll software all in a single package, Time and Expense, Employee Time Clocks, payroll timeclocks, Time Clock Specialists, employee time attendance management ,payroll automation, Time and Attendance Systems</EULA>
+	</Permissions>
+</XML_DIZ_INFO>

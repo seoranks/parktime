@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing &amp; Plans</title>
+<link rel="shortcut icon" href="images/favicon.png"/>
+<link href="style.css" rel="stylesheet" type="text/css"><!-- sliderman.js -->
+<link rel="stylesheet" href="colorbox.css" />
+<link rel="canonical" href="pricing-plans.html" />
+<script src="css_browser_selector.js" type="text/javascript"></script>
+<style type="text/css">
+html, body{height: 100%;}
+body{ font:12px/20px Helvetica, Arial, sans-serif; color: #3f4950;}
+h2{ font-size:18px; margin-bottom:50px; clear:both }
+/*Pricing box*/
+.pricing_box  { border: 1px solid #ccc; float: left; text-align: center; padding: 0 0 20px 0; margin-left:-1px; box-shadow: 0 2px 10px -4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 2px 10px -4px rgba(0, 0, 0, 0.5); background: #fff;}
+.pricing_box.radius-left { -webkit-border-top-left-radius: 5px; border-top-left-radius: 5px; -moz-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; border-bottom-left-radius: 5px; -moz-border-bottom-left-radius: 5px;}
+.pricing_box.radius-right { -webkit-border-top-right-radius: 5px; border-top-right-radius: 5px; -moz-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px; -moz-border-bottom-right-radius: 5px;}
+.pricing_box .header  { text-shadow: 0 1px 1px #fff; border-bottom: 1px solid #ccc; -webkit-border-top-right-radius: 5px; border-top-right-radius: 5px; -moz-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px; border-top-left-radius: 5px; -moz-border-top-left-radius: 5px;}
+.pricing_box .header { width: 100%; height: 68px; }
+.pricing_box .header span { position: relative; top: 20px; font-size: 26px; font-weight: bold; line-height: 28px;}
+.pricing_box .header span.info { position: relative; font-size: 12px; font-weight: normal; top: 2px; display: block; color: gray; } 
+.pricing_box p { line-height: 28px;}
+.pricing_box ul { list-style: none; margin: 0 0 15px 0!important; text-align: left;}
+
+.cols-2 .pricing_box { width: 49.8%; margin-bottom:50px; }
+.cols-3 .pricing_box  { width: 33%;  margin-bottom:50px;}
+.cols-4 .pricing_box { width: 24.8%; font-size: 1em; }
+.cols-5 .pricing_box { width: 19.5%; font-size: 0.9em;}
+
+.pricing_box ul li { line-height: 4em; margin-left:0; list-style-type: none!important;}
+.pricing_box ul li.odd { background: #F9F9F9;}
+.pricing_box ul li.even { background: #fff;}
+.pricing_box strong { background: url(images/price.sprite.png) no-repeat 0 -9999px; height: 12px; padding-left: 20px; font-style: normal; color: gray; }
+.pricing_box strong.no { background-position: 0 0;}
+.pricing_box strong.yes { background-position: 0 -15px;}
+.pricing_box strong.single { background-position: 0 -30px; }
+.pricing_box strong.unlim { background-position: 0 -45px; }
+.pricing_box strong.more{ background: url(images/price.more.png) no-repeat 0 0; height: 20px; width: 20px; cursor: pointer; float: right; padding: 0; margin: 14px 14px 0 0;}
+.pricing_box strong.nopad { padding: 0;}
+.pricing_box h3{ margin: 20px 0; font-size: 22px; display: block;}
+.pricing_box h3 em{ font-size: 12px; font-weight: normal;}
+
+.pricing_box p.button { height: 40px; background: url(images/price.readmore.png) no-repeat left 0; float: none; }
+.pricing_box p.button a { font-size: 16px; font-weight:bold; line-height: 40px; background: url(images/price.readmore.png) no-repeat right -40px; padding:0 40px; }
+
+.pricing_box p.button:hover {background-position:left -80px;}
+.pricing_box p.button a:hover{background-position:right -120px;}
+
+.pricing_box.large { position: relative;margin-top: -20px; -moz-box-shadow: 0 1px 10px #cbcbcb; -webkit-box-shadow: 0 1px 10px #cbcbcb; box-shadow: 0px 1px 10px #cbcbcb; padding: 0 0 40px 0; border-radius: 5px;}
+.pricing_box.large .header { color: #303E0E; text-shadow:0 1px 0 #C7DD90; height: 88px; background-color:#4BA614;border-bottom: 1px solid #b2d850;}
+.pricing_box.large .header  span{ top: 30px; }
+.pricing_box.large .header  span.info{ top: 14px; color: #576e1f; text-shadow:none; }
+
+.pricing_box.large p.button { background-position:left -160px;}
+.pricing_box.large p.button a{ background-position:right -200px; color: #303E0E; text-shadow:0 1px 0 #C7DD90;  }
+
+.pricing_box.large p.button:hover { background-position:left -240px;}
+.pricing_box.large p.button a:hover{ background-position:right -280px; }
+
+
+/*Buttons*/
+p.button { margin: 0 20px 0 0; padding: 0; display: inline-block;}
+p.button a{ float: left; line-height:32px; *line-height:28px; margin: 0 -20px 0 0!important; padding: 0 20px; height:100%; border: none; cursor: pointer; color: #3f4950; font-size: 12px; font-family: "Oswald"; text-shadow: 0 1px 0 #fff; text-decoration:none }
+p.button a:hover{text-decoration: none;}
+
+/* Text elements */
+*{ margin: 0; padding: 0; outline: none; }
+.even, .even-i, .even-s {padding-bottom:-1px !important;}
+.chrome .yes img {
+   
+margin-top: -40px;
+margin-left: 185px;
+margin-bottom: -32px;
+}
+
+.win.gecko .yes img
+{
+    margin-top: -31px;
+    margin-left: 191px;
+  margin-bottom: 8px;
+}
+.yes
+{
+font-size:17px;
+font-family:Times New Roman;
+}
+.pricing_box large radius-left .header
+{
+background-color:#4BA614;
+}
+.chrome .button_example {
+   position:relative;
+   top:-5px;
+   left:31px;}
+
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script src="js/form.js" type="text/javascript"></script>
+<!DOCTYPE html><html><head>
+<style type="text/css">
+
+.button_example,.button_example1{
+border:1px solid #34740e; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #4ba614; background-image: -webkit-gradient(linear, left top, left bottom, from(#4ba614), to(#008c00));
+ background-image: -webkit-linear-gradient(top, #4ba614, #008c00);
+ background-image: -moz-linear-gradient(top, #4ba614, #008c00);
+ background-image: -ms-linear-gradient(top, #4ba614, #008c00);
+ background-image: -o-linear-gradient(top, #4ba614, #008c00);
+ background-image: linear-gradient(to bottom, #4ba614, #008c00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4ba614, endColorstr=#008c00);
+}
+.button_example1
+{
+font-size:21px;
+padding-left:17px;
+position:relative;
+left:565px;
+width:102px;
+
+}
+
+.button_example:hover{
+ border:1px solid #224b09;
+ background-color: #36780f; background-image: -webkit-gradient(linear, left top, left bottom, from(#36780f), to(#005900));
+ background-image: -webkit-linear-gradient(top, #36780f, #005900);
+ background-image: -moz-linear-gradient(top, #36780f, #005900);
+ background-image: -ms-linear-gradient(top, #36780f, #005900);
+ background-image: -o-linear-gradient(top, #36780f, #005900);
+ background-image: linear-gradient(to bottom, #36780f, #005900);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#36780f, endColorstr=#005900);
+}</style>
+<style type="text/css">
+body {
+ -moz-binding: url(ff.xml#load-mozilla-css);
+}
+</style>
+</head> 
+<body>
+<div id="head">
+<div id="head-top">
+<div id="logo"><a href="index.html" class="smoothScroll"><img src="images/logo.png" alt="Park Time Logo" title="Park Time Logo"/></a></div>
+<ul class="menu">
+<li><a href="features.html">Features</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="download.html">Download</a></li>
+<li><a href="pricing-plans.html" class="active">Pricing</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="contact-us.html">Contact us</a></li>
+</ul>
+<ul class="right-sign">
+<li id="topnav"> <a class="button_example" href="http://www.parktime.com" target="_self">Sign in</a></li>
+</ul>
+<fieldset id="signin_menu">
+<form name="loginform" id="loginform" action="#" method="post">
+<p class="login-username">
+<label for="user_login">Username</label><br/>
+<input type="text" name="log" id="user_login" class="input" value="" size="20" /></p>
+<p class="login-password">
+<label for="user_pass">Password</label><br/>
+<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></p>
+<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
+<p class="login-submit">
+<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Sign In" />
+<input type="hidden" name="redirect_to" value="#" /></p>
+<div class="or-divider">
+<hr>
+<p>or login with</p>
+<hr>
+</div><!--or-divider-->
+<a class="wpmu_dev_login-button wpmu_dev_login-facebook" href="#"><span class="fb-icon" ></span>Facebook</a>
+<a class="wpmu_dev_login-button wpmu_dev_login-google" href="#" data-auth_url="#"><span class="g-icon"></span>Google</a><div class="lost-password">
+<p>
+<a href="/wp-login.php?action=lostpassword">Lost your password?</a> <br/>
+<a href="/#signup">Create an account</a></p>
+</div><!--lost-password-->
+</form>
+</fieldset>
+</div><!--head top ends here-->
+</div><!--head ends here-->
+<div id="banner-1">
+<img src="images/inner-banner.jpg" alt="employee time tracking" title="employee time tracking"/>
+<ul class="move-1">
+<h1>Pricing & Plans</h1>
+<span class="heading-move">Get ready for exponential returns from your search.</span>
+</ul>
+</div><!--banner ends here-->
+<div class="wrapper">
+
+<div class="cols-3">
+
+<div class="pricing_box radius-right"><div class="header"><span>Featured List</span></div>
+<ul>
+<li class="even"><strong class="yes">Unlimited managers</strong></li>
+<li class="odd"><strong class="yes">Unlimited Employees</strong></li>
+<li class="even"><strong class="yes">Unlimited time records</strong></li>
+<li class="odd"><strong class="yes">Restrict clock from certain IP address</strong></li>
+<li class="even"><strong class="yes">Restrict clock from certain Clock IDs</strong></li>
+<li class="odd"><strong class="yes">Company or employee level permitted locations</strong></li>
+<li class="even"><strong class="yes">Desktop Native app for Windows</strong></li>
+<li class="odd"><strong class="yes">Desktop Native app for Mac</strong></li>
+<li class="even"><strong class="yes">Native app for Android device (phone and pad)</strong></li>
+<li class="odd"><strong class="yes">Native app for iOS device (iPhone and iPad)</strong></li>
+<li class="even"><strong class="yes">Web camera supported</strong></li>
+<li class="odd"><strong class="yes">Company or employee level camera required setting</strong></li>
+<li class="even"><strong class="yes">Running reports to get Excel files</strong></li>
+<li class="odd"><strong class="yes">Time cards over view</strong></li>
+<li class="even"><strong class="yes">Time cards detail view</strong></li>
+<li class="odd"><strong class="yes">Job view</strong></li>
+<li class="even"><strong class="yes">Who is in</strong></li>
+<li class="odd"><strong class="yes">Absences</strong></li>
+<li class="even"><strong class="yes">Messages</strong></li>
+<li class="odd"><strong class="yes">Schedules</strong></li>
+<li class="even"><strong class="yes">Setting departments</strong></li>
+<li class="odd"><strong class="yes">Setting users (managers and employees)</strong></li>
+<li class="even"><strong class="yes">Setting job codes</strong></li>
+<li class="odd"><strong class="yes">Setting absence types</strong></li>
+<li class="even"><strong class="yes">Setting schedule templates</strong></li>
+<li class="odd"><strong class="yes">Setting company setting</strong></li>
+
+<li class="even"><strong class="yes">Setting permitted locations</strong></li>
+<li class="odd"><strong class="yes">Setting change my password</strong></li>
+<li class="even"><strong class="yes">Manager access control</strong></li>
+<li class="odd"><strong class="yes">Five years data storage</strong></li>
+<li class="even"><strong class="yes">Free email support within 24 hours</strong></li>
+</ul>
+
+</div>
+
+
+<div class="pricing_box large radius-left">
+<div class="header"><span>Basic Membership </span></div>
+<ul>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+
+<li class="even"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+
+<li class="even"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+
+<li class="odd"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/hifen.png"/></strong></li>
+
+</ul>
+</div>
+
+<div class="pricing_box radius-right"><div class="header"><span>Premium Membership</span></div>
+<ul>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="odd"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+<li class="even"><strong class="yes"><img src="images/tick1.png"/></strong></li>
+</ul>
+
+</div>
+
+</div>
+
+
+<div style="clear:both" /></div>
+
+<a class="button_example1" href="signup.html" target="_self">Sign Up</a>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div><!--wrapper ends here-->
+
+<div id="footer">
+<div class="footer-main">
+<div class="f-links">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="privacy-policy.html">Privacy Policy</a></li>
+<li><a href="about-us.html">About us</a></li>
+<li><a href="how-its-work.html">How its Work</a></li>
+<li><a href="partners.html">Partners</a></li>
+<li><a href="contact-us.html">Contact Us</a></li>
+<li><a href="terms-of-service.html">Terms and Conditions</a></li>
+<li><a href="sitemap.html">Sitemap</a></li>
+</ul>
+</div>
+<div class="m-links"> 
+<!--<div class="social">
+<ul>
+<li class="facebook"></li>
+<li class="twitter"></li> 
+<li class="gplus"></li> 
+<li class="linkdin"></li>
+</ul>
+</div>-->
+<!--<a href="#"><img src="images/social-media.jpg" alt="Social" style="margin:10px 0;"></a> -->
+<div class="button-1"><a href="#">Create Account</a></div>
+<p>Copyright @ 2013 Park Time<br/></p>
+<div class="colon">Designed by <a href="http://www.seoranksmart.com/">SEO Rank Smart</a></div>
+</div><!--mlinks ends here-->
+</div>
+</div>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+</body>
+</html>
